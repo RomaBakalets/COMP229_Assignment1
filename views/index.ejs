@@ -31,29 +31,65 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+
+            <% if (title == "Home") { %>
+            <li class="nav-item active">
+              <% } else { %>
             <li class="nav-item">
-              <a class="nav-link active" href="/home"><i class="fa-solid fa-house-laptop fa-lg"></i> Home</a>
+            <% } %>
+              <a class="nav-link" href="/home"><i class="fa-solid fa-house-laptop fa-lg"></i> Home </a>
             </li>
 
+             <% if (title == "About") { %>
+            <li class="nav-item active">
+              <% } else { %>
             <li class="nav-item">
-              <a class="nav-link" href="/about"><i class="fa-solid fa-address-card"></i> About</a>
+            <% } %>
+              <a class="nav-link" href="/about"><i class="fa-solid fa-address-card"></i> About </a>
             </li>
             
+             <% if (title == "Products") { %>
+            <li class="nav-item active">
+              <% } else { %>
             <li class="nav-item">
-              <a class="nav-link" href="/products"><i class="fa-solid fa-rectangle-list"></i> Products</a>
+            <% } %>
+              <a class="nav-link" href="/products"><i class="fa-solid fa-rectangle-list"></i> Products </a>
             </li>
 
+             <% if (title == "Services") { %>
+            <li class="nav-item active">
+              <% } else { %>
             <li class="nav-item">
-              <a class="nav-link" href="/services"><i class="fa-solid fa-user-gear"></i> Services</a>
+            <% } %>
+              <a class="nav-link" href="/services"><i class="fa-solid fa-user-gear"></i> Services </a>
             </li>
 
+             <% if (title == "Contact") { %>
+            <li class="nav-item active">
+              <% } else { %>
             <li class="nav-item">
-              <a class="nav-link" href="/contact"><i class="fa-solid fa-mobile-screen-button"></i> Contact</a>
+            <% } %>
+              <a class="nav-link" href="/contact"><i class="fa-solid fa-mobile-screen-button"></i> Contact </a>
             </li>
       </div>
     </nav>
 
-    <h1>Welcome to the <%= title %> page</h1>
+
+    <!-- Main Content -->
+    <main class="container">
+<div class="jumbotron">
+  <h1 class="display-4">Welcome to the <%= title %> page</h1>
+</div>
+    </main>
+    
+    <!-- Buttom Nav -->
+    <footer>
+      <nav class="navbar fixed-bottom navbar-dark bg-dark">
+  <div class="container-fluid">
+  <h2 class="display-6 navbar-text">&copy; Copyright 2022. All Rights reserved</h2>
+  </div>
+</nav>
+    </footer>
 
     <!-- JS Section -->
     <script src="/jquery/dist/jquery.min.js"></script>
