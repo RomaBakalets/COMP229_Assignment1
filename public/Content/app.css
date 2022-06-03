@@ -1,7 +1,9 @@
 /* custom css goes here */
 .container {
   text-align: center;
-  padding: 50px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin: 30px;
 }
 
 body {
@@ -32,4 +34,15 @@ body {
 .card {
   justify-content: center;
   align-items: center;
+}
+
+.mb-3 {
+  margin-left: 40%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.d-grid {
+  margin-left: 40%;
 }
