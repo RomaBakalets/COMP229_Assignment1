@@ -3,7 +3,6 @@
   text-align: center;
   padding-top: 30px;
   padding-bottom: 30px;
-  margin: 30px;
 }
 
 body {
@@ -37,12 +36,38 @@ body {
 }
 
 .mb-3 {
-  margin-left: 40%;
+  margin-left: 35%;
   align-items: center;
   justify-content: center;
   text-align: center;
 }
 
 .d-grid {
-  margin-left: 40%;
+  margin-left: 35%;
+}
+
+.products-container {
+  margin: 30px;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.about-progress-title {
+  text-align: start;
+}
+
+.contain {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.social {
+  padding: 10px;
+}
+
+.text {
+  margin-bottom: 10px;
+  align-items: center;
 }
