@@ -71,3 +71,65 @@ body {
   margin-bottom: 10px;
   align-items: center;
 }
+
+/* Social links */
+.social-icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.social-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 80px;
+  height: 80px;
+  margin: 0 0.5rem;
+  border-radius: 50%;
+  cursor: pointer;
+  font-family: "Halvetica Neue", sans-serif, "Arial";
+  font-size: 2.5rem;
+  text-decoration: none;
+  transition: all 0.15s ease;
+  border: 6px solid rgba(230, 228, 228);
+}
+
+.tooltip {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  padding: 0.8rem 1rem;
+
+  font-size: 0.8rem;
+  font-weight: bold;
+  opacity: 0;
+  pointer-events: none;
+  text-transform: uppercase;
+  z-index: 1;
+}
+
+/* color */
+.social-icon--codepen {
+  background: #000;
+  color: #fff;
+}
+.social-icon--github {
+  background: #4284c0;
+  color: #fff;
+}
+
+.social-icon--youtube {
+  background: #fa3217;
+  color: white;
+}
+.social-icon--instagram {
+  background: pink;
+  color: white;
+}
+.social-icon--facebook {
+  background: #3b5a9b;
+  color: white;
+}
+/* Hover Effect*/
